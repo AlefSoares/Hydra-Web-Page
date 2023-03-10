@@ -152,7 +152,12 @@ header{
     right: 1em;
     z-index: 4;
     user-select: none;
-  }
+}
+
+.hamburger.active {
+    position: fixed;
+    top: 3.5em;
+}
 
 .bar{
     display: block;
@@ -178,8 +183,10 @@ header{
 .home-left img {
     max-width: 490px;
     width: 100%;
-    margin: 2.5em 0;
+    margin: 1.5em 0;
 }
+
+
 
 
 .home-right span {
@@ -219,7 +226,6 @@ header{
 
 .info-container{
     max-width: 1272px;
-    /* min-width: 347px; */
     width: 100%;
     height: 109px;
     display: flex;
@@ -351,7 +357,6 @@ header{
 .card img {
     max-width: 190px;
     height: auto;
-    margin-top: 30px;
 }
 .card h1{
     font-size: 24px;
