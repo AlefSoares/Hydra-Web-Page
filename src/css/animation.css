@@ -13,7 +13,8 @@
     to {
         opacity:1;
     }
- }
+}
+
 @-webkit-keyframes fadein { /* Safari and Chrome */
     from {
         opacity:0;
@@ -29,6 +30,20 @@
     to {
         opacity: 1;
     }
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+	}
+
+	70% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.95);
+	}
 }
 
   
@@ -58,14 +73,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 
-nav ul li:hover {
+/* nav ul li:hover {
+    
     background: linear-gradient(to right, #8176AF, #C0B7E8);
     color: #343045;
     background-clip: text;
     -webkit-background-clip: text;  
     
     -webkit-text-fill-color: transparent;
-}
+} */
   
 nav ul li::after {
     content: "";
@@ -80,6 +96,12 @@ nav ul li::after {
 nav ul li:hover::after{
     width: 100%;
 }
+
+#contact-btn,
+#join-btn {
+    animation: pulse 5s infinite;
+}
+
   
 #contact-btn:hover {
     background-color: #ffffff29;
@@ -179,10 +201,19 @@ nav ul li:hover::after{
     transition: .1s ease-in-out;
 }
 
+/* FOOTER */
+
+footer .logo img,
+#footer-btn{
+    animation: pulse 5s infinite;
+}
 
 #footer-btn:hover {
     font-size: 12.4px;
     background: linear-gradient(to right, #7f75ac, #b7aedc);
     transition: .5s ease;
+    
 }
+
+
 
