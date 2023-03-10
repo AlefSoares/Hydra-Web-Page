@@ -37,7 +37,7 @@ sr.reveal('.education',{delay: 400, distance: '20px', origin:'bottom'})
 sr.reveal('.self-care',{delay: 500, distance: '20px', origin:'bottom'})
 sr.reveal('.outdoor',{delay: 600, distance: '20px', origin:'bottom'})
 
-sr.reveal('.conception-design',{delay: 300, distance: '20px', origin:'bottom'})
+sr.reveal('.conception-design,',{delay: 300, distance: '20px', origin:'bottom'})
 sr.reveal('.interaction-design',{delay: 400, distance: '20px', origin:'bottom'})
 sr.reveal('.vr-world-user-testing',{delay: 500, distance: '20px', origin:'bottom'})
 sr.reveal('.hydra-vr-deploy',{delay: 600, distance: '20px', origin:'bottom'})
