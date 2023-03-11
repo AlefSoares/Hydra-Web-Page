@@ -32,15 +32,15 @@ sr.reveal('.about-top, .about-bottom, .services-top, .tech-top, .how-to-top', {
     delay: 100,     
 });
 
-sr.reveal('.simulation',{delay: 300, distance: '20px', origin:'bottom'})
-sr.reveal('.education',{delay: 400, distance: '20px', origin:'bottom'})
-sr.reveal('.self-care',{delay: 500, distance: '20px', origin:'bottom'})
-sr.reveal('.outdoor',{delay: 600, distance: '20px', origin:'bottom'})
+sr.reveal('.simulation2',{delay: 300, distance: '20px', origin:'bottom'})
+sr.reveal('.education2',{delay: 400, distance: '20px', origin:'bottom'})
+sr.reveal('.self-care2',{delay: 500, distance: '20px', origin:'bottom'})
+sr.reveal('.outdoor2',{delay: 600, distance: '20px', origin:'bottom'})
 
-sr.reveal('.conception-design,',{delay: 300, distance: '20px', origin:'bottom'})
-sr.reveal('.interaction-design',{delay: 400, distance: '20px', origin:'bottom'})
-sr.reveal('.vr-world-user-testing',{delay: 500, distance: '20px', origin:'bottom'})
-sr.reveal('.hydra-vr-deploy',{delay: 600, distance: '20px', origin:'bottom'})
+sr.reveal('.conception-design2,',{delay: 300, distance: '20px', origin:'bottom'})
+sr.reveal('.interaction-design2',{delay: 400, distance: '20px', origin:'bottom'})
+sr.reveal('.vr-world-user-testing2',{delay: 500, distance: '20px', origin:'bottom'})
+sr.reveal('.hydra-vr-deploy2',{delay: 600, distance: '20px', origin:'bottom'})
 
 sr.reveal('.bxl-facebook-circle',{delay: 300, distance: '20px', origin:'bottom'})
 sr.reveal('.bxl-twitter',{delay: 400, distance: '20px', origin:'bottom'})
